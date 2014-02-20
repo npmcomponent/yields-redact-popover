@@ -3,14 +3,14 @@
  * Dependencies
  */
 
-var selected = require('get-selected-text');
-var monitor = require('monitor-text-selection');
-var Emitter = require('emitter');
-var events = require('events');
-var slug = require('slug');
-var trim = require('trim');
-var Tip = require('tip');
-var selectionPosition = require('selection-position');
+var selected = require('yields-get-selected-text');
+var monitor = require('bmcmahen-monitor-text-selection');
+var Emitter = require('component-emitter');
+var events = require('component-events');
+var slug = require('yields-slug');
+var trim = require('component-trim');
+var Tip = require('component-tip');
+var selectionPosition = require('bmcmahen-selection-position');
 
 /**
  * Export `RedactPopover`

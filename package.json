@@ -1,0 +1,24 @@
+{
+  "name": "yields-redact-popover",
+  "description": "medium inspired editor popover",
+  "version": "0.1.1",
+  "keywords": [
+    "medium",
+    "popover",
+    "tooltip",
+    "tip",
+    "redact"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "yields-get-selected-text": "git://github.com/npmcomponent/yields-get-selected-text.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-events": "git://github.com/npmcomponent/component-events.git",
+    "component-trim": "git://github.com/npmcomponent/component-trim.git",
+    "component-tip": "git://github.com/npmcomponent/component-tip.git",
+    "yields-slug": "git://github.com/npmcomponent/yields-slug.git",
+    "bmcmahen-monitor-text-selection": "git://github.com/npmcomponent/bmcmahen-monitor-text-selection.git",
+    "bmcmahen-selection-position": "git://github.com/npmcomponent/bmcmahen-selection-position.git"
+  },
+  "license": "MIT"
+}
